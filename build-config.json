@@ -1,0 +1,15 @@
+{
+  "osm": [
+    {
+      "source": "https://download.geofabrik.de/asia/malaysia-singapore-brunei-latest.osm.pbf"
+    }
+  ],
+  "transitFeeds": [
+    {
+      "source": "https://openapi-malaysia-transport.s3.ap-southeast-1.amazonaws.com/mybas-kota-bharu/gtfs.zip",
+      "type": "gtfs",
+      "feedId": "mybas-kota-bharu"
+    }
+  ],
+  "transitModelTimeZone": "Asia/Kuala_Lumpur"
+}

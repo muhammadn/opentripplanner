@@ -1,0 +1,10 @@
+{
+  "updaters": [
+    {
+      "type": "vehicle-positions",
+      "frequency": "PT30S",
+      "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/mybas-kota-bharu",
+      "feedId": "mybas-kota-bharu"
+    }
+  ]
+}

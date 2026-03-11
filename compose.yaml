@@ -1,0 +1,13 @@
+services:
+  opentripplanner:
+    command: --load --serve
+    environment:
+      - JAVA_TOOL_OPTIONS=-Xmx8G
+    expose:
+      - 8080
+    image: opentripplanner/opentripplanner:2.3.0
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      - ./:/var/opentripplanner
